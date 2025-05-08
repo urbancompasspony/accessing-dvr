@@ -1,0 +1,8 @@
+Use winetricks to install what is missing!
+
+WINEPREFIX="folder/here" WINEARCH=win32 wine /path/to/iVMS-4200V3.8.0.4_E.exe
+
+WINEPREFIX="folder/here" winetricks -q jet40 mdac28 riched30 windowscodecs wininet vcrun6 wsh56
+
+Running:
+wine path/to/drive_c/Program Files (x86)/iVMS-4200 Site/iVMS-4200 Client/Client/iVMS-4200.Framework.C.exe
